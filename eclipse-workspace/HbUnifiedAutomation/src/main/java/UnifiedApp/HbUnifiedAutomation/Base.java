@@ -8,6 +8,7 @@ import java.net.URL;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.DeviceRotation;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import io.appium.java_client.android.AndroidDriver;
@@ -51,8 +52,15 @@ public class Base {
 	    return isServerRunning;
 	}
 	
+	//Launching the emulator from base class
+	public static void startEmulator() throws IOException, InterruptedException
+	{
+		Runtime.getRuntime().exec(System.getProperty("user.dir")+"\\src\\main\\java\\resources\\startEmulator.bat");
+		Thread.sleep(8000);
+	}
 	
-	public static AndroidDriver<AndroidElement> capabilities(String appName) throws IOException
+	
+	public static AndroidDriver<AndroidElement> capabilities(String appName) throws IOException, InterruptedException
 	{
 		//This brings the apk file from global.properties 
 		
@@ -69,6 +77,12 @@ public class Base {
 		//Test to run
 		
 		String listdevice= (String) prop.get("device");
+		
+		//Checking if device is emulator then invoke start_emulator()
+		if(listdevice.contains("emulator"))
+		{
+			startEmulator();
+		}
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME,listdevice);
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,"uiautomator2");
 		cap.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 15);

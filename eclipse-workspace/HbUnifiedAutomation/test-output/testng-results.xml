@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-04T23:11:53 IST" name="Suite" finished-at="2021-06-04T23:12:17 IST" duration-ms="24415">
+  <suite started-at="2021-06-06T00:30:00 IST" name="Suite" finished-at="2021-06-06T00:30:37 IST" duration-ms="36387">
     <groups>
     </groups>
-    <test started-at="2021-06-04T23:11:53 IST" name="Test" finished-at="2021-06-04T23:12:17 IST" duration-ms="24415">
+    <test started-at="2021-06-06T00:30:00 IST" name="Test" finished-at="2021-06-06T00:30:37 IST" duration-ms="36387">
       <class name="UnifiedApp.HbUnifiedAutomation.EnvSetup">
-        <test-method signature="selectServer()[pri:0, instance:UnifiedApp.HbUnifiedAutomation.EnvSetup@7c711375]" started-at="2021-06-04T23:11:53 IST" name="selectServer" finished-at="2021-06-04T23:12:17 IST" duration-ms="24377" status="PASS">
+        <test-method signature="selectServer()[pri:0, instance:UnifiedApp.HbUnifiedAutomation.EnvSetup@57cf54e1]" started-at="2021-06-06T00:30:00 IST" name="selectServer" finished-at="2021-06-06T00:30:37 IST" duration-ms="36314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectServer -->

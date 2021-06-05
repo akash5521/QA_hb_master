@@ -15,7 +15,7 @@ import io.appium.java_client.internal.Config;
 public class EnvSetup extends Base
 {
 @Test
-public void selectServer() throws IOException
+public void selectServer() throws IOException, InterruptedException
 {
 	service = StartServer();
 	AndroidDriver<AndroidElement> driver = capabilities("UnifiedApp");

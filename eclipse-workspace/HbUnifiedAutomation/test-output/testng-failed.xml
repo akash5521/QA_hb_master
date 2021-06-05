@@ -3,11 +3,11 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="UnifiedApp.HbUnifiedAutomation.ConfigControl">
+      <class name="UnifiedApp.HbUnifiedAutomation.EnvSetup">
         <methods>
-          <include name="Configuration"/>
+          <include name="selectServer"/>
         </methods>
-      </class> <!-- UnifiedApp.HbUnifiedAutomation.ConfigControl -->
+      </class> <!-- UnifiedApp.HbUnifiedAutomation.EnvSetup -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
