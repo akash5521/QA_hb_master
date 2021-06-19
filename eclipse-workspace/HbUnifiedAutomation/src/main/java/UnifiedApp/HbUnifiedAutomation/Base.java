@@ -8,7 +8,10 @@ import java.net.URL;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.DeviceRotation;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import io.appium.java_client.android.AndroidDriver;
@@ -22,6 +25,8 @@ public class Base {
 	// Programitically start the server
 	
 	public static AppiumDriverLocalService service;
+	public static AndroidDriver<AndroidElement> driver;
+
 	public AppiumDriverLocalService StartServer()
 	{
 		//Check if server is already started at 4723, don't again run the server
@@ -68,7 +73,6 @@ public class Base {
 		Properties prop = new Properties();
 		prop.load(fis);
 		
-		AndroidDriver<AndroidElement> driver;
 		File appDir = new File("src");
 		File app = new File(appDir,(String) prop.get(appName));
 		DesiredCapabilities cap = new DesiredCapabilities();
@@ -91,10 +95,13 @@ public class Base {
 		driver.manage().timeouts().implicitlyWait(19, TimeUnit.SECONDS);
 		
 		return driver;
-		
-		
-		
-		
-	}
+		}
+	
+	       //Implementing screenshot on test failure 
+			public static void getscreenshot(String failedname) throws IOException
+			{
+			File savescreenshot =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			FileUtils.copyFile(savescreenshot,new File("D:\\Appium\\Screenshot\\"+failedname+".png"));
+			}
 
 }
