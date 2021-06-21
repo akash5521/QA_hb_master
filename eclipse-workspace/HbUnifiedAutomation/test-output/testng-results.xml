@@ -1,19 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-07T23:20:19 IST" name="Suite" finished-at="2021-06-07T23:21:04 IST" duration-ms="45047">
+  <suite started-at="2021-06-21T22:54:07 IST" name="Suite" finished-at="2021-06-21T22:55:56 IST" duration-ms="108903">
     <groups>
     </groups>
-    <test started-at="2021-06-07T23:20:19 IST" name="Test" finished-at="2021-06-07T23:21:04 IST" duration-ms="45047">
+    <test started-at="2021-06-21T22:54:07 IST" name="Test" finished-at="2021-06-21T22:55:56 IST" duration-ms="108903">
       <class name="UnifiedApp.HbUnifiedAutomation.EnvSetup">
-        <test-method signature="selectServer()[pri:0, instance:UnifiedApp.HbUnifiedAutomation.EnvSetup@37d4349f]" started-at="2021-06-07T23:20:19 IST" name="selectServer" finished-at="2021-06-07T23:20:45 IST" duration-ms="25728" status="PASS">
+        <test-method signature="selectServer(java.lang.String)[pri:0, instance:UnifiedApp.HbUnifiedAutomation.EnvSetup@71a8adcf]" started-at="2021-06-21T22:54:07 IST" name="selectServer" data-provider="InputData" finished-at="2021-06-21T22:54:38 IST" duration-ms="30925" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eatgood]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectServer -->
+        <test-method signature="selectServer(java.lang.String)[pri:0, instance:UnifiedApp.HbUnifiedAutomation.EnvSetup@71a8adcf]" started-at="2021-06-21T22:54:38 IST" name="selectServer" data-provider="InputData" finished-at="2021-06-21T22:55:04 IST" duration-ms="26634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectServer -->
+        <test-method signature="selectServer(java.lang.String)[pri:0, instance:UnifiedApp.HbUnifiedAutomation.EnvSetup@71a8adcf]" started-at="2021-06-21T22:55:04 IST" name="selectServer" data-provider="InputData" finished-at="2021-06-21T22:55:32 IST" duration-ms="27628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[$$&^%$]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectServer -->
       </class> <!-- UnifiedApp.HbUnifiedAutomation.EnvSetup -->
       <class name="UnifiedApp.HbUnifiedAutomation.Login">
-        <test-method signature="LoginPage()[pri:0, instance:UnifiedApp.HbUnifiedAutomation.Login@290222c1]" started-at="2021-06-07T23:20:45 IST" name="LoginPage" finished-at="2021-06-07T23:21:04 IST" duration-ms="19284" status="FAIL">
+        <test-method signature="LoginPage()[pri:0, instance:UnifiedApp.HbUnifiedAutomation.Login@54e1c68b]" started-at="2021-06-21T22:55:32 IST" name="LoginPage" finished-at="2021-06-21T22:55:55 IST" duration-ms="23266" status="FAIL">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: java.lang.IllegalStateException: Unable to evaluate expression. See cause
@@ -21,7 +50,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'DESKTOP-FRNMMBE', ip: '192.168.29.147', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {app: C:\Users\AKASH KUMAR\eclips..., appPackage: com.hungerbox.customer.common, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\AKASH KUMAR\eclips..., automationName: uiautomator2, deviceName: emulator_Akash, newCommandTimeout: 15, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 15, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: a6fe6092-9416-4e25-99f8-036a27fc05d2
+Session ID: 55610a93-83f0-4ce7-96b4-3288ad8de6c5
 *** Element info: {Using=xpath, value=//*[contains(@text='LOG IN')]}]]>
             </message>
             <full-stacktrace>
@@ -30,7 +59,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'DESKTOP-FRNMMBE', ip: '192.168.29.147', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {app: C:\Users\AKASH KUMAR\eclips..., appPackage: com.hungerbox.customer.common, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\AKASH KUMAR\eclips..., automationName: uiautomator2, deviceName: emulator_Akash, newCommandTimeout: 15, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 15, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: a6fe6092-9416-4e25-99f8-036a27fc05d2
+Session ID: 55610a93-83f0-4ce7-96b4-3288ad8de6c5
 *** Element info: {Using=xpath, value=//*[contains(@text='LOG IN')]}
 at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:192)
 at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
@@ -39,7 +68,7 @@ at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementL
 at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
 at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
 at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(<generated>)
-at UnifiedApp.HbUnifiedAutomation.Login.LoginPage(Login.java:23)
+at UnifiedApp.HbUnifiedAutomation.Login.LoginPage(Login.java:25)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -73,7 +102,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'DESKTOP-FRNMMBE', ip: '192.168.29.147', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {app: C:\Users\AKASH KUMAR\eclips..., appPackage: com.hungerbox.customer.common, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\AKASH KUMAR\eclips..., automationName: uiautomator2, deviceName: emulator_Akash, newCommandTimeout: 15, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 15, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: a6fe6092-9416-4e25-99f8-036a27fc05d2
+Session ID: 55610a93-83f0-4ce7-96b4-3288ad8de6c5
 *** Element info: {Using=xpath, value=//*[contains(@text='LOG IN')]}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)

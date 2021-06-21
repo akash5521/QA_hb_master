@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;UnifiedApp.HbUnifiedAutomation.config_control_page&apos; to &apos;EnvSetup&apos;&#x0D;&#x0A;- Original project: &apos;HbUnifiedAutomation&apos;&#x0D;&#x0A;- Original element: &apos;UnifiedApp.HbUnifiedAutomation.config_control_page&apos;&#x0D;&#x0A;- Renamed element: &apos;UnifiedApp.HbUnifiedAutomation.EnvSetup&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;config_control_page&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;UnifiedApp.HbUnifiedAutomation{config_control_page.java[config_control_page" matchStrategy="1" name="EnvSetup" qualified="false" references="true" similarDeclarations="false" stamp="1621617295225" textual="false" version="1.0"/>
+</session>

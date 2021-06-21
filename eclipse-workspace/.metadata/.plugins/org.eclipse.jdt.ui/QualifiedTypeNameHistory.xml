@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.remote.DesiredCapabilities"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="io.appium.java_client.remote.MobileCapabilityType"/>
+    <fullyQualifiedTypeName name="java.net.URL"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="PageObjects.Select_Enviroment"/>
+    <fullyQualifiedTypeName name="PageObjects.ConfigPage"/>
+    <fullyQualifiedTypeName name="io.appium.java_client.service.local.AppiumDriverLocalService"/>
+    <fullyQualifiedTypeName name="PageObjects.Select_Enviroment.ConfigPage"/>
+    <fullyQualifiedTypeName name="java.lang.Runtime"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.DeviceRotation"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
+    <fullyQualifiedTypeName name="io.appium.java_client.pagefactory.AppiumFieldDecorator"/>
+    <fullyQualifiedTypeName name="io.appium.java_client.pagefactory.AndroidFindBy"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+    <fullyQualifiedTypeName name="com.google.common.util.concurrent.Service"/>
+    <fullyQualifiedTypeName name="io.appium.java_client.android.AndroidDriver"/>
+    <fullyQualifiedTypeName name="io.appium.java_client.android.AndroidElement"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+    <fullyQualifiedTypeName name="PageObjects.Login_methords"/>
+    <fullyQualifiedTypeName name="UnifiedApp.HbUnifiedAutomation.Base"/>
+</qualifiedTypeNameHistroy>
