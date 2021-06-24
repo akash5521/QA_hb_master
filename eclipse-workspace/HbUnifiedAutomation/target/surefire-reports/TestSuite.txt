@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 118.758 s <<< FAILURE! - in TestSuite
+LoginPage(UnifiedApp.HbUnifiedAutomation.Login)  Time elapsed: 24.202 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: java.lang.IllegalStateException: Unable to evaluate expression. See cause
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-FRNMMBE', ip: '192.168.29.147', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\AKASH KUMAR\eclips..., appPackage: com.hungerbox.customer.common, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\AKASH KUMAR\eclips..., automationName: uiautomator2, deviceName: emulator_Akash, newCommandTimeout: 15, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 15, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: d2cad76b-48f9-49ed-b91f-de0005332043
+*** Element info: {Using=xpath, value=//*[contains(@text='LOG IN')]}
+	at UnifiedApp.HbUnifiedAutomation.Login.LoginPage(Login.java:25)
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: java.lang.IllegalStateException: Unable to evaluate expression. See cause
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-FRNMMBE', ip: '192.168.29.147', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\AKASH KUMAR\eclips..., appPackage: com.hungerbox.customer.common, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\AKASH KUMAR\eclips..., automationName: uiautomator2, deviceName: emulator_Akash, newCommandTimeout: 15, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 15, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: d2cad76b-48f9-49ed-b91f-de0005332043
+*** Element info: {Using=xpath, value=//*[contains(@text='LOG IN')]}
+	at UnifiedApp.HbUnifiedAutomation.Login.LoginPage(Login.java:25)
+

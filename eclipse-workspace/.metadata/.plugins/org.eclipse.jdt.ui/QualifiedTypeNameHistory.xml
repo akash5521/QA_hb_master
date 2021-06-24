@@ -25,4 +25,6 @@
     <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
     <fullyQualifiedTypeName name="PageObjects.Login_methords"/>
     <fullyQualifiedTypeName name="UnifiedApp.HbUnifiedAutomation.Base"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.DataProvider"/>
+    <fullyQualifiedTypeName name="UnifiedApp.HbUnifiedAutomation.DataParametrisation"/>
 </qualifiedTypeNameHistroy>

@@ -80,7 +80,9 @@ public class Base {
 		//From global.properties file we are bringing the device name in which we want 
 		//Test to run
 		
-		String listdevice= (String) prop.get("device");
+		//String listdevice= (String) prop.get("device");
+		//Checking device name from maven command(mvn test -DdeviceName = emulator)
+		String listdevice=  System.getProperty("deviceName");
 		
 		//Checking if device is emulator then invoke start_emulator()
 		if(listdevice.contains("emulator"))
